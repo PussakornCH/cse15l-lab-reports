@@ -31,7 +31,7 @@ cd command is used to change the directory to a new directory, so the terminal t
 ---
 # ls Command
 
-```
+``` bash
 [user@sahara ~]$ ls
 lecture1
 [user@sahara ~]$
@@ -42,7 +42,7 @@ ls command with no argument implies that we want to list the root folder. The le
 No error
 
 ---
-```
+``` bash
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$
@@ -53,7 +53,7 @@ All the files and folders within the lecture1 folder are displayed because of th
 No error
 
 ---
-```
+``` bash
 [user@sahara ~]$ ls lecture1/messages/en-us.txt
 lecture1/messages/en-us.txt
 [user@sahara ~]$
@@ -66,7 +66,7 @@ No error.
 ---
 # cat Command
 
-``` 
+``` bash
 [user@sahara ~]$ cat
 ^C
 [user@sahara ~]$ 
@@ -77,7 +77,7 @@ Nothing happened when the cat command with no argument. And I have to use ^C to 
 The error might happen because the cat command needs a file to print the context.
 
 ---
-``` 
+``` bash
 [user@sahara ~]$ cat lecture1/messages
 cat: lecture1/messages: Is a directory
 [user@sahara ~]$ 
@@ -88,7 +88,7 @@ Because "messages" is not a file, the terminal reminds us that "messages" is a d
 Error happened because messages is not a file.
 
 ---
-``` 
+``` bash
 [user@sahara ~]$ cat lecture1/messages/th.txt
 สวัสดีชาวโลก
 [user@sahara ~]$ 
