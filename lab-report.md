@@ -28,7 +28,35 @@ Explain
 lecture1
 [user@sahara ~]$
 ```
+``` bash
+[user@sahara ~]$ ls lecture1
+Hello.class  Hello.java  messages  README
+[user@sahara ~]$
+```
+
 
 ``` bash
+[user@sahara ~]$ ls lecture1/messages/en-us.txt
+lecture1/messages/en-us.txt
+[user@sahara ~]$
+```
 
+# cat Command
+
+``` bash
+[user@sahara ~]$ cat
+^C
+[user@sahara ~]$ 
+```
+
+``` bash
+[user@sahara ~]$ cat lecture1/messages
+cat: lecture1/messages: Is a directory
+[user@sahara ~]$ 
+```
+
+``` bash
+[user@sahara ~]$ cat lecture1/messages/th.txt
+สวัสดีชาวโลก
+[user@sahara ~]$ 
 ```
