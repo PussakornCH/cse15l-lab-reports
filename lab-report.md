@@ -47,7 +47,7 @@ No error
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$
 ```
-Working directory: /home/lecture1
+Working directory: /home
 
 All the files and folders within the lecture1 folder are displayed because of the ls command.
 No error
@@ -58,7 +58,7 @@ No error
 lecture1/messages/en-us.txt
 [user@sahara ~]$
 ```
-Working directory: /homelecture1/messages/en-us.txt
+Working directory: /home
 
 There are no files and folders within the files themselves, so the ls command just shows the given path.
 No error.
@@ -82,7 +82,7 @@ The error might happen because the cat command needs a file to print the context
 cat: lecture1/messages: Is a directory
 [user@sahara ~]$ 
 ```
-Working directory: /home/lecture1/messages
+Working directory: /home
 
 Because "messages" is not a file, the terminal reminds us that "messages" is a directory.
 Error happened because messages is not a file.
@@ -93,7 +93,7 @@ Error happened because messages is not a file.
 สวัสดีชาวโลก
 [user@sahara ~]$ 
 ```
-Working directory: /home/lecture1/messages
+Working directory: /home
 
 the cat command prints the contents of the th.txt file.
 No error.
